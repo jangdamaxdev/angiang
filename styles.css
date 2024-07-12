@@ -1,0 +1,146 @@
+/* Setting index.html */
+#index {
+  position: relative; 
+  background-color: rgba(241, 235, 213, 0.373);    
+}
+
+/* Setting background-image for children sites */
+#culturalActivities, #touristDestination {
+    background-image: url(bg/1m.jpg);
+    padding: 20px 100px 100px 100px ;    
+}
+
+/* Setting header and paragraph for all sites */
+.detail, h2 { 
+    text-shadow: 0 0 40px rgb(26, 255, 0);
+   font-weight: bolder;
+   font-size: 40px;   
+}
+h1, h2, h3 {
+    font-family: 'Leckerli One';    
+    padding: 15px;       
+}
+p, li {
+   font-family: 'Petit Formal Script';
+   font-size: 19pt;
+   font-weight: bold;
+   color: rgb(0, 0, 181);
+   text-align: justify;
+   text-indent: 80px;
+} 
+/* Settings Slice in all site */
+#sliceCD, #sliceTT {
+    width: 80%;
+    margin: 10px auto 10px auto;
+} 
+.carousel-caption h3 {
+    font-family: 'Petit Formal Script';
+    font-size: 2.5vw;
+    text-shadow: 0 0 5pt black, 0 0 20pt black;
+    font-weight: bolder;
+}
+.carousel-caption p {
+    font-family: 'Petit Formal Script';
+    font-size: 1.1vw;
+    text-shadow: 0 0 5pt black, 0 0 20pt black;
+    font-weight:bolder;
+    color: aliceblue;
+    text-indent: 0;
+    text-align: center;
+}
+
+/* Settings img for all */
+img {
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Settings Collapse in touristsDestination.html >> 2. Tinh Bien */
+#wildlife .card-header {
+    background-color: rgb(210, 246, 210);
+    color: black;
+    font-family: 'Petit Formal Script';
+    font-weight:bolder;
+    font-size: 20pt;
+}
+.caption {
+  font-size: 15pt;  
+}
+
+/* SGV mask Effect in index.html */  
+.masktext {
+    position: relative;
+    width: 290px;
+    height: 390px;
+  }
+  .masktext svg, image {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+.masktext img {
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+    opacity: 1;    
+    transition: .5s linear;
+    margin: 0;      
+  }
+.masktext:hover img {
+    opacity: 0;
+    visibility:hidden;
+}
+.masktext a {
+    text-decoration: none;
+}
+text {
+    font-size: 55px;
+    font-family: 'Leckerli One'; 
+    font-weight: bold;        
+} 
+/* Audio Effect in index.html */
+.audio {     
+    width: 20%;    
+    position: fixed;
+    top: 20px;    
+    z-index: 1;
+    left: 50%;
+    translate: -50%;      
+    opacity: .4;
+    transition: .3s linear;                
+}
+.audio p {
+    position: absolute;       
+    font-size: 15px; 
+    text-indent: 0;
+    width: 100%;
+    text-shadow: 0 0 5px black;
+    color: white;   
+}
+.audio:hover {
+    opacity: 1; 
+}
+
+/* About in index.html */
+#btnAbout {    
+    position: fixed;    
+    right: 5px; 
+    top: 20px;
+    z-index: 1;    
+}
+
+/* Cuisine */
+.cuiCard{    
+    width: 380px;
+    height: 380px;    
+  }
+.cuiCard img {
+    width: 100%;
+    height: 100%;  
+    margin: 0 ;
+}
+.cuiCard:hover img {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
