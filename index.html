@@ -16,13 +16,7 @@
         <title>My hometown</title>
     </head>
     <body id="index" >
-      <div class="audio text-center">
-        <audio controls >      
-        <source src="audio/Khmer.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-      <p class="text-center">The Pin Peat Orchestra</p>      
-    </div>
+      
     <!-- Button About -->
     <div id="btnAbout">
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#about"><i class="fa-solid fa-circle-info" style="font-size: 35px;"></i></button>
@@ -99,7 +93,7 @@
             <svg>
               <mask id="desmask">
                 <text x="18%" y="50%" fill="white">Tourists</text>    
-                <text x="0%" y="77%" fill="white">Destination</text>
+                <text x="7%" y="77%" fill="white">Destination</text>
               </mask>
             <image href="SLICE/cardDes.jpeg" mask="url(#desmask)" ></image>
             Sorry, your browser does not support inline SVG.
@@ -158,12 +152,20 @@
                 https://angiang.gov.vn/<br>
                 https://tapchicongthuong.vn/<br>
               </span>
-                         
+              <div class="audio text-center">
+                <audio controls >      
+                <source src="audio/Khmer.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <p class="text-center">The Pin Peat Orchestra</p>      
+            </div>           
             </div>
       
             <!-- Modal footer -->
-            <div class="modal-footer">
+            <div class="modal-footer">              
+               
               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+             
             </div>
       
           </div>
