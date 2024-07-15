@@ -133,9 +133,9 @@ text {
 /* Cuisine */
 .cuiCard{    
     position: relative;   
-    width: 340px;       
+    width: 300px;       
     margin: 20px 10px;
-    height: 340px;
+    height: 300px;
   }
 .cuiCard img {
     width: 100%;
@@ -154,5 +154,11 @@ text {
     .cuiCard {        
     width: 250px;
     height: 250px;
+    }
+    img {
+        margin: 5px 0 !important;
+        width: 100% !important;
+        
+        
     }
   }
