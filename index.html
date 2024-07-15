@@ -15,14 +15,10 @@
         
         <title>My hometown</title>
     </head>
-    <body id="index" >
-      
-    <!-- Button About -->
-    <div id="btnAbout">
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#about"><i class="fa-solid fa-circle-info" style="font-size: 35px;"></i></button>
-    </div>
+    <body id="index" >      
+    
         <!-- Carousel -->
-      <div id="slice" class="carousel slide " data-bs-ride="carousel" style="padding-inline: 80px; z-index: 0;">
+      <div id="slice" class="carousel slide " data-bs-ride="carousel" style="padding-inline: 3vw; z-index: 0;">
 
         <!-- Indicators/dots -->
         <div class="carousel-indicators">
@@ -86,14 +82,14 @@
         </button>
       </div>
       <!-- Flash Card -->
-      <div class="container-fluid  d-flex justify-content-around">
+      <div class="container-fluid" id="flashcard"> 
         <div class="masktext">
           <img src="SLICE/cardDes.jpeg">
           <a href="touristDestination.html" target="_blank">
             <svg>
               <mask id="desmask">
-                <text x="18%" y="50%" fill="white">Tourists</text>    
-                <text x="7%" y="77%" fill="white">Destination</text>
+                <text x="18%" y="40%" fill="white">Tourists</text>    
+                <text x="7%" y="62%" fill="white">Destination</text>
               </mask>
             <image href="SLICE/cardDes.jpeg" mask="url(#desmask)" ></image>
             Sorry, your browser does not support inline SVG.
@@ -104,10 +100,10 @@
         <div class="masktext">
           <img src="SLICE/cardAct.jpg">
           <a href="culturalActivities.html" target="_blank">
-            <svg width="100%" height="100%">
+            <svg >
               <mask id="actmask">
-                <text x="17%" y="50%" fill="white">Cultural</text>    
-                <text x="17%" y="77%" fill="white">Activities</text>
+                <text x="17%" y="40%" fill="white">Cultural</text>    
+                <text x="17%" y="62%" fill="white">Activities</text>
               </mask>
               <image href="SLICE/cardAct.jpg" mask="url(#actmask)" ></image>
               Sorry, your browser does not support inline SVG.
@@ -118,16 +114,19 @@
         <div class="masktext">
             <img src="SLICE/cardCui.jpg">
             <a href="cuisine.html" target="_blank">
-              <svg width="100%" height="100%">
+              <svg >
               <mask id="cuimask">
-                <text x="25%" y="62%" fill="white">Cuisine</text>   
-                
+                <text x="25%" y="55%" fill="white">Cuisine</text>                
               </mask>
               <image href="SLICE/cardCui.jpg" mask="url(#cuimask)" ></image>
               Sorry, your browser does not support inline SVG.
             </svg>
             </a> 
-        </div>          
+        </div>  
+        <!-- Button About -->
+        <div id="btnAbout">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#about"><i class="fa-solid fa-circle-info" style="font-size: 3vw;"></i></button>
+        </div>  
       </div>     
       <!-- Modal(About this project)-->
       <div class="modal" id="about">
@@ -151,19 +150,21 @@
                 https://thamhiemmekong.com/<br>
                 https://angiang.gov.vn/<br>
                 https://tapchicongthuong.vn/<br>
+                Video: Source in video.
               </span>
+              
+                       
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">              
               <div class="audio text-center">
                 <audio controls >      
                 <source src="audio/Khmer.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
               </audio>
               <p class="text-center">The Pin Peat Orchestra</p>      
-            </div>           
-            </div>
-      
-            <!-- Modal footer -->
-            <div class="modal-footer">              
-               
+              </div> 
               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
              
             </div>
