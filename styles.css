@@ -15,12 +15,12 @@ body {
 .detail, h2 { 
    text-shadow: 0 0 20px rgb(26, 255, 0);
    font-weight: bolder;
-   font-size: 30px;
+   font-size: 23px;
 }
 h1, h2, h3 {
     font-family: 'Leckerli One';    
     padding: 7px 10px;
-    font-size: 30px;       
+    font-size: 30px !important;       
 }
 p, li {
    font-family: 'Petit Formal Script';
@@ -63,7 +63,7 @@ img {
     background-color: rgb(210, 246, 210);
     color: black;
     font-family: 'Petit Formal Script';    
-    font-size: 25px;
+    font-size: 20px;
 }
 .caption {
   font-size: 13px;  
