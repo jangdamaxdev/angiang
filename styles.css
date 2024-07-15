@@ -8,38 +8,32 @@
 /* Setting background-image for children sites */
 body {
     background-image: url(bg/1m.jpg);
-    padding: 1vw 2vw 2vw 2vw;    
+    padding: 10px 20px;    
 }
 
 /* Setting header and paragraph for all sites */
 .detail, h2 { 
-    text-shadow: 0 0 2vw rgb(26, 255, 0);
+    text-shadow: 0 0 20px rgb(26, 255, 0);
    font-weight: bolder;
-   font-size: 3vw;   
+   font-size: 40px;
 }
-h1 {
-    font-size: 2.8vw;
-}
-h3 {
-    font-size: 2vw;
-}
-
 h1, h2, h3 {
     font-family: 'Leckerli One';    
-    padding: .5vw;       
+    padding: 7px 10px;
+    font-size: 40px;       
 }
 p, li {
    font-family: 'Petit Formal Script';
-   font-size: 1.5vw;
-   font-weight: bold;
+   font-size: 20px;
+   
    color: rgb(0, 0, 181);
    text-align: justify;
-   text-indent: 3vw;
+   text-indent: 35px;
 } 
 /* Settings Slice in all site */
 #sliceCD, #sliceTT {
     width: 80%;
-    margin: 1vw auto 1vw auto;
+    margin: 10px auto ;
 } 
 .carousel-caption h3 {
     font-family: 'Petit Formal Script';
@@ -49,7 +43,7 @@ p, li {
 }
 .carousel-caption p {
     font-family: 'Petit Formal Script';
-    font-size: 1.1vw;
+    font-size: 15px;
     text-shadow: 0 0 5px black;
     font-weight:bolder;
     color: aliceblue;
@@ -60,21 +54,20 @@ p, li {
 /* Settings img for all */
 img {
     display: block;
-    margin: 1vw auto 1vw auto;
+    margin: 10px auto;
     width: 50%;
-    border-radius: 1vw;
+    border-radius: 10px;
 }
 
 /* Settings Collapse in touristsDestination.html >> 2. Tinh Bien */
 #wildlife .card-header {
     background-color: rgb(210, 246, 210);
     color: black;
-    font-family: 'Petit Formal Script';
-    font-weight:bolder;
-    font-size: 1.5vw;
+    font-family: 'Petit Formal Script';    
+    font-size: 25px;
 }
 .caption {
-  font-size: 1vw;  
+  font-size: 15px;  
 }
 
 /* SGV mask Effect in index.html */
@@ -86,9 +79,9 @@ img {
     flex-wrap: wrap; 
  }
 .masktext { 
-    position: relative;   
-    width: 22%;
-    height: 27vw;    
+    position: relative; 
+    width: 300px;
+    height: 400px;    
     margin-top: 5px;
   }
 .masktext svg, image {
@@ -112,7 +105,7 @@ img {
     text-decoration: none;
 }
 text {
-    font-size: 3.2vw;
+    font-size: 50px;
     font-family: 'Leckerli One'; 
     font-weight: bold;        
 } 
@@ -122,8 +115,7 @@ text {
 .audio { 
     position: absolute;    
     width: 70%;    
-    translate: -30% 7%;
-    
+    translate: -30% 7%;    
 }
 .audio p {           
     font-size: 15px; 
@@ -143,9 +135,9 @@ text {
 /* Cuisine */
 .cuiCard{    
     position: relative;   
-    width: 32%;       
-    margin: 15px 7px;
-    height: 32vw;
+    width: 400px;       
+    margin: 20px 10px;
+    height: 400px;
   }
 .cuiCard img {
     width: 100%;
@@ -162,7 +154,7 @@ text {
       align-items: center;      
     }
     .cuiCard {        
-    width: 50% ;
-    height: 45vw;
+    width: 250px;
+    height: 250px;
     }
   }
