@@ -13,7 +13,7 @@ body {
 
 /* Setting header and paragraph for all sites */
 .detail, h2 { 
-    text-shadow: 0 0 20px rgb(26, 255, 0);
+   text-shadow: 0 0 20px rgb(26, 255, 0);
    font-weight: bolder;
    font-size: 30px;
 }
@@ -156,9 +156,11 @@ text {
     height: 250px;
     }
     img {
-        margin: 5px 0 !important;
-        width: 100% !important;
-        
-        
+        margin: 5px 0;
+        width: 100%;        
     }
+    #sliceCD, #sliceTT {
+        width: 100%;
+        margin: 5px 0;
+    } 
   }
