@@ -155,7 +155,7 @@ text {
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 /* Reponsible width */
-@media (max-width: 600px) {
+@media (max-width: 420px) {
     #flashcard, .cuisine {
       flex-direction: column;      
       align-items: center;      
