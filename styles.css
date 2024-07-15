@@ -121,17 +121,18 @@ text {
 
 .audio { 
     position: absolute;    
-    width: 100%;    
-    translate: -5% 7%;
+    width: 70%;    
+    translate: -30% 7%;
+    
 }
 .audio p {           
-    font-size: .8vw; 
+    font-size: 15px; 
     text-indent: 0;
     width: 100%;    
-    color: rgb(2, 2, 2);   
+    color: rgb(2, 2, 2);
+    font-weight: bold; 
+    text-shadow: 0 0 2px black; 
 }
-
-
 /* About in index.html */
 #btnAbout {    
     position: absolute;    
@@ -139,12 +140,12 @@ text {
     top: 5px;
     z-index: 1;    
 }
-
 /* Cuisine */
 .cuiCard{    
     position: relative;   
     width: 32%;       
     margin: 15px 7px;
+    height: auto;
   }
 .cuiCard img {
     width: 100%;
