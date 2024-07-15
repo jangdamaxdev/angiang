@@ -20,7 +20,7 @@ body {
 h1, h2, h3 {
     font-family: 'Leckerli One';    
     padding: 7px 10px;
-    font-size: 30px !important;       
+    font-size: 30px;       
 }
 p, li {
    font-family: 'Petit Formal Script';
